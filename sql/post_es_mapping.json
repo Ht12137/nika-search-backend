@@ -1,6 +1,7 @@
+
 {
   "aliases": {
-    "post": {}
+    "article": {}
   },
   "mappings": {
     "properties": {
@@ -25,15 +26,6 @@
             "ignore_above": 256
           }
         }
-      },
-      "tags": {
-        "type": "keyword"
-      },
-      "thumbNum": {
-        "type": "long"
-      },
-      "favourNum": {
-        "type": "long"
       },
       "userId": {
         "type": "keyword"
